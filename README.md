@@ -4,7 +4,7 @@
 
 1. [Ideia sobre Classe, Atributos e Métodos](https://github.com/FowlerAsch/EstudoTeoricoJava/edit/main/README.md#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
 2. [Atributo de Classe & Variável Local](https://github.com/FowlerAsch/EstudoTeoricoJava/edit/main/README.md#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
-3. [Construtores]((https://github.com/FowlerAsch/EstudoTeoricoJava/edit/main/README.md#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos))
+3. [Construtores](https://github.com/FowlerAsch/EstudoTeoricoJava/edit/main/README.md#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
 
 # Ideia sobre o que é Classe, Atributos e Métodos:
 > Vamos entender o que seria classe, atributos e métodos:
