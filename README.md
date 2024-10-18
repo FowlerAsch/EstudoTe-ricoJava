@@ -5,6 +5,7 @@
 1. [Ideia sobre Classe, Atributos e Métodos](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
 2. [Atributo de Classe & Variável Local](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#classe--vari%C3%A1vel-local)
 3. [Construtores](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#construtores)
+4. [Sobrecarga]()
 
 # Ideia sobre o que é Classe, Atributos e Métodos:
 > Vamos entender o que seria classe, atributos e métodos:
@@ -64,3 +65,21 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
         return ano;<br>
     }<br>
 }
+
+# Sobrecarga:
+>  uma técnica que permite definir vários métodos com o mesmo nome, mas com diferentes parâmetros. A sobrecarga é muito útil porque permite que você use o mesmo nome de método para realizar diferentes tarefas, dependendo dos tipos ou quantidades de argumentos passados.
+> ### Como funciona a sobrecarga?
+>
+> Para um método ser sobrecarregado, ele deve ter:
+>
+> - O **mesmo nome**.
+> - **Parâmetros diferentes** (quantidade, tipo ou ordem).
+>
+>   public class Calculadora {<br>
+>public int soma(int a, int b) {<br>
+>    return a + b;<br>
+> }<br>
+>public int soma(int a, int b, int c) {<br>
+>    return a + b + c;<br>
+> }<br>
+>}<br>
