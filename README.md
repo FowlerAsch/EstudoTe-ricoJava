@@ -5,8 +5,8 @@
 1. [Ideia sobre Classe, Atributos e Métodos](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
 2. [Atributo de Classe & Variável Local](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#classe--vari%C3%A1vel-local)
 3. [Construtores](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#construtores)
-4. [Sobrecarga]()
-5. [Programação Orientada à objetos]()
+4. [Sobrecarga](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#sobrecarga)
+5. [Programação Orientada à objetos](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#programa%C3%A7%C3%A3o-orientada-%C3%A0-objetos)
 
 # Ideia sobre o que é Classe, Atributos e Métodos:
 > Vamos entender o que seria classe, atributos e métodos:
