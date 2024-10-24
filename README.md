@@ -6,6 +6,7 @@
 2. [Atributo de Classe & Variável Local](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#classe--vari%C3%A1vel-local)
 3. [Construtores](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#construtores)
 4. [Sobrecarga]()
+5. [Programação Orientada à objetos]()
 
 # Ideia sobre o que é Classe, Atributos e Métodos:
 > Vamos entender o que seria classe, atributos e métodos:
@@ -83,3 +84,26 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
 >    return a + b + c;<br>
 > }<br>
 >}<br>
+
+# Programação Orientada à Objetos:
+> ### Herança
+> O princípio da herança permite que uma classe (conhecida como superclasse ou classe pai) compartilhe atributos e métodos com outra classe (conhecida como subclasse ou classe filha). Essa relação hierárquica entre classes promove a reutilização de código e facilita a organização e manutenção do sistema. Um dos principais benefícios da herança é a **reutilização de código**. Em vez de reescrever o mesmo código em várias classes, você pode definir atributos e métodos comuns em uma superclasse e permitir que as subclasses herdem essas características. Outro aspecto importante da herança é a **sobrescrita de métodos** (ou overriding), onde uma subclasse pode fornecer uma implementação específica de um método que já existe na superclasse. Isso permite que diferentes subclasses se comportem de maneira distinta, mesmo que compartilhem uma interface comum. Por exemplo, uma superclasse `Animal` pode ter um método `fazerSom()`, enquanto as subclasses `Cachorro` e `Gato` podem sobrescrever esse método para produzir sons específicos, como "Au Au!" e "Miau!", respectivamente.
+> ### Encapsulamento
+> Encapsulamento é um conceito fundamental na programação orientada a objetos (POO). Ele se refere à prática de agrupar dados (atributos) e métodos (funções) que operam sobre esses dados em uma única unidade chamada de classe. A ideia principal do encapsulamento é restringir o acesso direto a alguns dos componentes de um objeto, o que ajuda a proteger o estado interno do objeto e a manter a integridade dos dados.
+>  1. **Proteção dos Dados**: O encapsulamento permite que os dados de um objeto sejam protegidos contra acesso indevido. Isso é feito utilizando modificadores de acesso (como `private`, `protected`, `public`) que controlam a visibilidade dos atributos e métodos.
+>  2. **Interface Pública**: Embora os dados sejam protegidos, a classe pode fornecer métodos públicos (também chamados de métodos de acesso ou "getters" e "setters") que permitem interagir com os dados de forma controlada. Por exemplo, em vez de permitir que um código externo acesse diretamente um atributo, você pode criar métodos que retornem ou modifiquem esse atributo.
+> ### Polimorfismo
+> O polimorfismo é um dos princípios fundamentais da programação orientada a objetos (POO). Ele se refere à capacidade de um objeto assumir várias formas. Em termos práticos, polimorfismo permite que uma classe derive outras classes e que essas classes derivadas possam ter comportamentos específicos, mesmo quando acessadas por meio de uma referência comum, como a de uma classe base. O polimorfismo se manifesta principalmente de duas formas: polimorfismo de sobrecarga (overloading) e polimorfismo de sobrescrita (overriding).
+>  1. **O polimorfismo de sobrescrita** ocorre quando uma subclasse fornece sua própria implementação de um método que é declarado na superclasse, permitindo que a mesma interface (método) tenha comportamentos diferentes dependendo da classe que o invoca. Por exemplo, se tivermos uma classe Animal com o método fazerSom(), e subclasses como Cachorro e Gato que sobrescrevem esse método, um programa pode tratar todos os objetos como Animal, mas invocar o método fazerSom() produzirá sons específicos de cada tipo de animal, como "Au Au!" para cães e "Miau!" para gatos.
+>  2. **O polimorfismo de sobrecarga**, por outro lado, ocorre quando uma classe tem vários métodos com o mesmo nome, mas com assinaturas diferentes (por exemplo, variando o número ou o tipo de parâmetros). Isso permite que um método seja utilizado de várias formas dependendo dos argumentos fornecidos. Um exemplo seria um método calcular que, dependendo dos parâmetros, pode somar dois números, calcular a área de um círculo ou realizar outras operações.
+> ### Abstração
+> Abstração é um dos pilares fundamentais da programação orientada a objetos (POO). Ela se refere à capacidade de modelar os aspectos essenciais de um objeto ou sistema, deixando de lado os detalhes complexos ou desnecessários para o contexto atual. Na prática, a abstração permite que os programadores definam classes e objetos com foco apenas nas propriedades e comportamentos relevantes para o problema que estão resolvendo, simplificando a complexidade Por exemplo, imagine uma classe abstrata FormaGeometrica com métodos como calcularArea() e calcularPerimetro(). A classe FormaGeometrica não sabe como calcular a área ou o perímetro de uma forma específica, mas define que todas as formas geométricas, como Círculo ou Retângulo, devem implementar esses métodos. Cada subclasse fornecerá sua própria implementação de acordo com suas características.<br>
+> ### Associação
+> A associação é um dos conceitos mais fundamentais na programação orientada a objetos (POO) e descreve o relacionamento entre duas classes, onde uma classe usa ou "se relaciona" com outra. Diferente de herança, onde há uma relação hierárquica (classe pai e classe filha), na associação as classes estão no mesmo nível e podem se relacionar de diferentes maneiras. Existem diferentes tipos de associação, dependendo da natureza do vínculo entre as classes:
+>
+> 1. Associação Simples: Representa uma relação simples entre duas classes, em que uma instância de uma classe pode conhecer a outra. Não há restrição de "posse" ou controle. Um exemplo seria a relação entre uma classe Aluno e uma classe Professor, onde um Aluno pode estar associado a um Professor sem que um possua o outro.
+>
+> 2. Agregação: É um tipo especial de associação que indica uma relação "todo-parte", onde uma classe (o "todo") é composta de outras classes (as "partes"), mas essas partes podem existir independentemente. Por exemplo, uma classe Carro pode ser composta por Rodas, Motor, e Portas, mas cada uma dessas partes pode existir separadamente ou ser reutilizada em outro carro. A agregação é representada por uma linha com um losango vazio em diagramas UML.
+>
+> 3. Composição: Similar à agregação, a composição também representa uma relação "todo-parte", mas com uma diferença crucial: na composição, as partes não podem existir sem o todo. Isso significa que a existência de uma classe depende totalmente da outra. Um exemplo clássico seria uma classe Casa e Quarto. Se a Casa for destruída, os Quartos também deixam de existir. Nos diagramas UML, a composição é representada por um losango preenchido.
+
