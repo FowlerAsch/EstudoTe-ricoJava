@@ -112,3 +112,8 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
 >
 > 3. Composição: Similar à agregação, a composição também representa uma relação "todo-parte", mas com uma diferença crucial: na composição, as partes não podem existir sem o todo. Isso significa que a existência de uma classe depende totalmente da outra. Um exemplo clássico seria uma classe Casa e Quarto. Se a Casa for destruída, os Quartos também deixam de existir. Nos diagramas UML, a composição é representada por um losango preenchido.
 
+<h2 >Criador</h2>
+<table>
+  <tr>
+    <td align="center"><a href="https://www.linkedin.com/in/higor-cabrall/"><img src="https://avatars.githubusercontent.com/u/104106899?s=400&u=6ae8d212fe0462f9af2b7b1227276bd78b9dcf51&v=4" width="100px;" alt="Homem branco com camisa preta em foto de perfil"/><br/><sub><b>Higor Cabral</b></sub></a></td>
+  </tr>
