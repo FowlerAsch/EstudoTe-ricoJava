@@ -1,9 +1,11 @@
-# ROADMAP JAVA
+# RoadMap JAVA ☕♨♨️
 
-# Introdução:
+## Introdução: </>
 Este repositório foi criado para guardar tudo o que aprendi na teoria sobre o desenvolvimento em Java. Além disso, também tem como foco ajudar aqueles que desejam iniciar o aprendizado na linguagem Java, oferecendo como base um RoadMap e conteúdos teóricos.
 
-## Sumário
+I created this repository to keep everything I've learned about Java development theory. It's also designed to help anyone looking to start learning Java, featuring a RoadMap and some theoretical content. Unfortunately, only in Portuguese yet.
+
+## Sumário 💻
 
 1. [Ideia sobre Classe, Atributos e Métodos](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#ideia-sobre-o-que-%C3%A9-classe-atributos-e-m%C3%A9todos)
 2. [Atributo de Classe & Variável Local](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#classe--vari%C3%A1vel-local)
