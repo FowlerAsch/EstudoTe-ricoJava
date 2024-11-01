@@ -11,7 +11,7 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
 # Métodos
 > Em produção...
 
-# Sobrecarga:
+### Sobrecarga de Métodos:
 >  uma técnica que permite definir vários métodos com o mesmo nome, mas com diferentes parâmetros. A sobrecarga é muito útil porque permite que você use o mesmo nome de método para realizar diferentes tarefas, dependendo dos tipos ou quantidades de argumentos passados.
 > ### Como funciona a sobrecarga?
 >
@@ -28,3 +28,52 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
 >    return a + b + c;<br>
 > }<br>
 >}<br>
+
+### Construtores:
+> Em Java , um construtor é um bloco de códigos similar ao método. É um tipo especial de método usado para inicializar o objeto. Ele fornece valores iniciais para variáveis de instâncias definidas pela classe. Ele também pode ser usado para configurar componentes que o objeto precisará utilizar. Toda vez que um objeto é criado usando a palavra-chave new(), pelo menos um construtor é chamado. Ele chama um construtor padrão se não houver nenhum construtor disponível na classe. Nesse caso, o compilador Java fornece um construtor padrão por padrão. Existem dois tipos de construtores em Java: construtor sem argumentos e construtor parametrizado.
+> ### Construtor vazio (Padrão):
+> Esse tipo de construtor é utilizado quando você quer criar uma instância de uma classe, mas não tem valores específicos para inicializar os atributos do objeto logo de início. O construtor vazio geralmente deixa os atributos com valores padrão (como `null`, `0`, ou `false`, dependendo do tipo). Posteriormente, você pode definir os valores desses atributos através de métodos *setter* ou diretamente, se os atributos forem públicos.
+> Como no exemplo abaixo:
+
+> public class Carro { <br>
+> private String modelo; <br>
+> private int ano; <br>
+> <br>
+> // Construtor vazio (padrão) <br>
+> public Carro() {<br>
+> }<br>
+>
+> // Métodos Set para definir os valores<br>
+> public void setModelo(String modelo) {<br>
+>    this.modelo = modelo;<br>
+}<br>
+> <br>
+> public void setAno(int ano) {<br>
+>    this.ano = ano;<br>
+> }<br>
+>
+> Carro carro = new Carro();<br>
+> carro.setModelo("Fusca"); // inserindo as informações pelo método set<br>
+> carro.setAno(1970);<br>
+
+> ### Construtor com paramêtro:
+> O construtor com parâmetros permite inicializar o objeto com valores logo no momento da criação. Isso é útil quando você já tem todas as informações necessárias para definir o estado inicial do objeto. <br> <br>
+> public class Carro {<br>
+    private String modelo;<br>
+    private int ano;<br>
+>
+>    // Construtor com parâmetros<br>
+    public Carro(String modelo, int ano) {<br>
+        this.modelo = modelo;<br>
+        this.ano = ano;<br>
+    }
+>
+>    // Métodos get para acessar os valores<br>
+    public String getModelo() {<br>
+        return modelo;<br>
+    }
+>
+>    public int getAno() {<br>
+        return ano;<br>
+    }<br>
+}
