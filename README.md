@@ -13,16 +13,6 @@ I created this repository to keep everything I've learned about Java development
 4. [Sobrecarga](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#sobrecarga)
 5. [Programação Orientada à objetos](https://github.com/FowlerAsch/EstudoTeoricoJava/tree/main?tab=readme-ov-file#programa%C3%A7%C3%A3o-orientada-%C3%A0-objetos)
 
-# Ideia sobre o que é Classe, Atributos e Métodos:
-> Vamos entender o que seria classe, atributos e métodos:
-No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe é a definição do que seria o carro; ou seja, possui quatro rodas, volante, marcha, entre outros atributos, que são chamados de atributos de classe ou gerais. A partir disso, o carro se diferencia de país para país. Em certos lugares, existem carros com o volante à direita, o tipo de marcha, o veículo pode ser elétrico, automático ou manual, entre outras variações de comportamento. Apesar dessas diferenças, ainda é considerado um carro, e essas variações são representadas nos métodos.
-
-# Atributo de Classe & Variável Local
-> ## Qual a diferença entre Atributo de Classe e Variável local?
-> Anotação : Atributo de Classe & Variável Local: Quando você cria um atributo geral daquela classe ele se torna uma variável única que pode ser utilizada em diferentes métodos. Quando você não utiliza e precisa criar uma mesma variável em cada método ela se torna três variáveis diferentes com o mesmo nome existindo ao mesmo tempo, se tornando uma variável local. <br><br>
-> Atributo de Classe: Ele pode ser acessado e modificado por diferentes métodos da classe, o que o torna uma variável compartilhada dentro da instância do objeto. Isso significa que, enquanto o objeto existir, o atributo pode ser acessado em qualquer método da classe. O valor do atributo é persistente enquanto o objeto estiver em uso, e qualquer alteração feita nele em um método será visível para os outros métodos da mesma instância. <br><br>
-> Variável local: Uma variável local é definida dentro de um método e só existe enquanto o método está em execução. Ela é criada quando o método é chamado e destruída quando o método termina sua execução. Cada vez que o método é chamado, a variável local é recriada, e seu valor não é compartilhado entre chamadas de métodos ou entre outros métodos da classe. Isso significa que ela tem um escopo limitado e não pode ser acessada fora do método em que foi criada. <br>
-
 # Construtores:
 > Em Java , um construtor é um bloco de códigos similar ao método. É um tipo especial de método usado para inicializar o objeto. Ele fornece valores iniciais para variáveis de instâncias definidas pela classe. Ele também pode ser usado para configurar componentes que o objeto precisará utilizar. Toda vez que um objeto é criado usando a palavra-chave new(), pelo menos um construtor é chamado. Ele chama um construtor padrão se não houver nenhum construtor disponível na classe. Nesse caso, o compilador Java fornece um construtor padrão por padrão. Existem dois tipos de construtores em Java: construtor sem argumentos e construtor parametrizado.
 > # Construtor vazio (Padrão):
@@ -71,24 +61,6 @@ No mundo real, temos a estrutura/objeto 'carro' em diferentes países. A classe 
         return ano;<br>
     }<br>
 }
-
-# Sobrecarga:
->  uma técnica que permite definir vários métodos com o mesmo nome, mas com diferentes parâmetros. A sobrecarga é muito útil porque permite que você use o mesmo nome de método para realizar diferentes tarefas, dependendo dos tipos ou quantidades de argumentos passados.
-> ### Como funciona a sobrecarga?
->
-> Para um método ser sobrecarregado, ele deve ter:
->
-> - O **mesmo nome**.
-> - **Parâmetros diferentes** (quantidade, tipo ou ordem).
->
->   public class Calculadora {<br>
->public int soma(int a, int b) {<br>
->    return a + b;<br>
-> }<br>
->public int soma(int a, int b, int c) {<br>
->    return a + b + c;<br>
-> }<br>
->}<br>
 
 <h2 >Criador</h2>
 <table>
